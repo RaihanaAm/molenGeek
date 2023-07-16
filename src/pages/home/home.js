@@ -1,7 +1,10 @@
 import "./_home.scss";
 import "./_responsive.scss";
 
+
+
 export const Home = () => {
+   
     return (
         <div className="Home">
             <div className="perso ">
