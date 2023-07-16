@@ -1,0 +1,58 @@
+.Formation {
+    margin: 30px 0;
+
+    .FormationTitle {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .decouvre {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+     .first{
+         color: blue;
+     }
+    }
+}
+
+.Decouvre {
+    // background-color: aqua;
+    width: 700px;
+    margin: 25px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    h4 {
+        width: 400px;
+        color: rgb(56, 56, 56);
+    }
+
+    img {
+        width: 450px;
+        height: 300px;
+    }
+    div{
+        margin: 20px 0;
+        color:#82368c ;
+        p{
+            font-weight: 500;
+        }
+
+    }
+    button{
+        border: none;
+        width: 380px;
+        height: 45px;
+        border-radius: 30px;
+        color: white;
+    }
+}

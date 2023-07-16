@@ -1,0 +1,61 @@
+@media (min-width:768px) and (max-width:1024px) {
+    .decouvre {
+        flex-direction: column;
+    }
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    .Formation{
+
+        .FormationTitle {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 40px;
+        }
+        .decouvre {
+            flex-direction: column;
+        }
+    }
+    .Decouvre {
+        // background-color: aqua;
+        width: 340px;
+        margin: 25px 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+        h1 {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+    
+        h4 {
+            width: 320px;
+            color: rgb(56, 56, 56);
+        }
+    
+        img {
+            width: 300px;
+            height: 250px;
+        }
+        div{
+            margin: 20px 0;
+            width: 300px;
+            color:#82368c ;
+            p{
+                font-weight: 500;
+            }
+    
+        }
+        button{
+            border: none;
+            width: 320px;
+            height: 35px;
+            border-radius: 30px;
+            color: white;
+            font-size: 16px;
+        }
+    }
+}
