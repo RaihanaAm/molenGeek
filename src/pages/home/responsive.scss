@@ -1,0 +1,62 @@
+@media ( min-width:768px ) and (max-width:1024px)  {
+    .Home{
+
+        .perso{
+            height: 80vh;
+            background-position:  50%;
+
+        }
+        .titles{
+    
+            .title {
+                margin: 15px 0 0 0;
+        
+                h1 {
+                    font-size: 45px;
+                    font-weight: 200;
+                    padding: 0 40px;
+                    line-height: 40px;
+                }
+        
+            }
+            .btnn {
+                margin: 60px 0 40px;
+       
+            }
+        }
+    }
+}
+@media ( min-width:320px ) and (max-width:767px)  {
+    .Home{
+
+        .perso{
+            height: 80vh;
+            background-position:  50%;
+
+        }
+        .titles{
+    
+            .title {
+                margin: 15px 0 0 0;
+        
+                h1 {
+                    font-size: 25px;
+                    font-weight: 300;
+                    padding: 0 40px;
+                    line-height: 30px;
+                }
+        
+            }
+            .btnn {
+                margin: 60px 0 40px;
+                width: 150px;
+                height: 40px;
+                p{
+                    font-size: 12px;
+                }
+
+       
+            }
+        }
+    }
+}
