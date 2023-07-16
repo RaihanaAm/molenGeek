@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "poppins";
+    src: url(../../assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "poppinsB";
+    src: url(../../assets/fonts/Poppins-SemiBold.ttf);
+};
+.navbar {
+    width: 100%;
+    font-family: "poppins";
+    .img:hover{
+        cursor: pointer;
+    }
+  
+    // height: 100px;
+
+    .Divlist {
+        border-left: 1px solid rgb(235, 235, 235);
+        border-right: 1px solid rgb(235, 235, 235);
+        .list {
+            padding: 20px 0;
+            margin: 0;
+
+            font-weight: 500;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            font-size: 13px;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            li{
+                font-family: "poppinsB";
+                color: rgb(66, 66, 66);
+                margin: 10px 25px;
+                padding-bottom: 2px;
+                border-bottom: 3px solid rgb(255, 255, 255);
+
+            }
+            li:hover{
+                border-bottom: 3px solid rgb(76, 76, 76);
+            }
+           
+
+        }
+
+    }
+    .DivContacte{
+        height: 129px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        h3{
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            padding-bottom: 5px;
+            border-bottom: 3px solid transparent;
+
+        }
+        h3:hover{
+            color: white;
+            border-bottom: 3px solid rgb(255, 255, 255);
+
+
+        }
+
+    }
+    .DivContacte:hover{
+        background-color: #944d9e;
+      
+
+
+    }
+}
