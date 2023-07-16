@@ -1,5 +1,6 @@
 import {Navbar } from "./layout/header/header";
 import {Home } from "./pages/home/home";
+import {About } from "./pages/about/about";
 
 
 export const App = () => {
@@ -8,6 +9,7 @@ export const App = () => {
     <div className="">
       <Navbar/>
       <Home/>
+      <About/>
 
     </div>
   )

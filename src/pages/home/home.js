@@ -1,5 +1,5 @@
-import "./home.scss";
-import "./responsive.scss";
+import "./_home.scss";
+import "./_responsive.scss";
 
 export const Home = () => {
     return (

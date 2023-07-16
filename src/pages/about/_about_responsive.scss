@@ -1,0 +1,27 @@
+@media ( min-width:768px ) and (max-width:1024px)  {
+    .About{
+        padding: 25px;
+        height: 80vh;
+        h1{
+         font-size: 35px;
+        
+        }
+        p{
+         width: 90%;
+        }
+     }
+}
+@media ( min-width:320px ) and (max-width:767px)  {
+    .About{
+        padding: 25px;
+        height: 100vh;
+        h1{
+         font-size: 25px;
+        
+        }
+        p{
+         width: 90%;
+         font-size: 16px;
+        }
+     }
+}

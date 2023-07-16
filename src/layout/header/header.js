@@ -6,10 +6,10 @@ import "./responsive.scss";
 export const Navbar = () => {
     return (
         <div className="navbar row p-0 m-0" >
-            <div className="DivLogo col-2-lg">
+            <div className="DivLogo col-lg-2 ">
                 <img className="img" src={logo} alt="h"></img>
             </div>
-            <div className="Divlist col-8-lg">
+            <div className="Divlist col-lg-8">
                 <ul className="list">
                     <li className="li"> <a href="#" >FORMATIONS </a></li>
                     <li> <a href="#" >COWORKING</a></li>
@@ -22,7 +22,7 @@ export const Navbar = () => {
 
                 </ul>
             </div>
-            <div className="DivContacte col-2-lg ">
+            <div className="DivContacte col-lg-2 ">
                 <h3>CONTACTER-NOUS</h3>
             </div>
 

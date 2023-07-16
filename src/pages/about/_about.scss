@@ -1,0 +1,18 @@
+.About{
+   text-align: center;
+   padding: 25px;
+   height: 60vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   h1{
+    font-size: 55px;
+    span{
+        color: #82368c;
+    }
+   }
+   p{
+    width: 80%;
+   }
+}
