@@ -1,0 +1,53 @@
+.courTitle{
+    text-align: center;
+    margin: 40px 0 20px;
+    color: rgb(67, 67, 67);
+}
+.Format{
+    padding:  0 80px ;
+    margin: 20px;
+    .SingleFormat{
+        border: 5px solid black;
+        width: 100%;
+        padding:  10px 20px ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .number{
+            width: 5%;
+            text-align: center;
+            h1{
+                font-size: 75px;
+                font-weight: bold;
+            }
+
+        }
+        .Contenu{
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h1{
+                font-size: 35px;
+            }
+            .descrip{
+                margin-top: 30px;
+            }
+            button{
+                width: 160px;
+                border-radius: 5px;
+                margin-right: 10px;
+                height: 50px;
+
+                color: white;
+                border: none;
+            }
+
+
+        }
+
+
+
+    }
+
+}
