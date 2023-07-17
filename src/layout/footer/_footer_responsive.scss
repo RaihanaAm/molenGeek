@@ -1,0 +1,43 @@
+@media (min-width:768px) and (max-width:1024px) {
+    .Footer{
+        .SocielMedia{
+            flex-direction: column;
+            p{
+                width: 130px;
+                text-align: center;
+                font-size: 18px;
+            }
+        }
+
+        .logo{
+            img{
+                width: 130px;
+            }
+        }
+        .desc{
+            font-size: 16px;
+        }
+    }
+}
+@media (min-width:320px) and (max-width:767px) {
+    .Footer{
+        .SocielMedia{
+            flex-direction: column;
+            p{
+                width: 130px;
+                text-align: center;
+                font-size: 18px;
+            }
+        }
+
+        .logo{
+            img{
+                width: 130px;
+            }
+        }
+        .desc{
+            font-size: 16px;
+        }
+    }
+ 
+}
